@@ -1,0 +1,103 @@
+/* Estilo general para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #d9534f;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #f2dede;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.menu {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.pizza-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.pizza-item:hover {
+    transform: scale(1.05);
+}
+
+.pizza-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pizza-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.pizza-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #d9534f;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+}
